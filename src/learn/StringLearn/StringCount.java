@@ -1,4 +1,4 @@
-package learn.classLearn;
+package learn.StringLearn;
 
 import java.util.Scanner;
 

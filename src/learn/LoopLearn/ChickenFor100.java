@@ -1,4 +1,4 @@
-package learn;
+package learn.LoopLearn;
 
 public class ChickenFor100 {
     /*

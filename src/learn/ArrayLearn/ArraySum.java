@@ -1,4 +1,4 @@
-package learn;
+package learn.ArrayLearn;
 
 public class ArraySum {
     /*

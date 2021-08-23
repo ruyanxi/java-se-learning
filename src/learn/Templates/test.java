@@ -1,4 +1,4 @@
-package learn;
+package learn.Templates;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package learn;
+package learn.ArrayLearn;
 
 public class ArrayComparison {
     /*对比两个数组的元素是否相同，不要求数组元素顺序也相同。

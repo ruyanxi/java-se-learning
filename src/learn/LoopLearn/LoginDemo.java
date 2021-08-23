@@ -1,4 +1,4 @@
-package learn.classLearn;
+package learn.LoopLearn;
 
 import java.util.Objects;
 import java.util.Scanner;

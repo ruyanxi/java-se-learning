@@ -1,4 +1,4 @@
-package learn;
+package learn.ArrayLearn;
 
 import java.util.Scanner;
 

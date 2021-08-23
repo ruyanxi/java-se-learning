@@ -1,4 +1,4 @@
-package learn;
+package learn.ArrayLearn;
 
 public class ArrayComparison2 {
     /*数组元素对比，要求元素值和元素顺序均相同
