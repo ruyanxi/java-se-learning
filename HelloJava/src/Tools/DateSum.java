@@ -32,17 +32,17 @@ public class DateSum {
 
         int days = 0;
 
-        if ((start - end) / 10000 > 0) {
-            for (int i = start;start<end;start++){
-                if (start % 4 == 0 && start % 100 != 0 || start % 400 == 0){
-                    days +=366;
-                } else {
-                    days +=365;
-                }
-            }
-        } else {
-
-        }
+//        if ((start - end) / 10000 > 0) {
+//            for (int i = start;start<end;start++){
+//                if (start % 4 == 0 && start % 100 != 0 || start % 400 == 0){
+//                    days +=366;
+//                } else {
+//                    days +=365;
+//                }
+//            }
+//        } else {
+//
+//        }
 
 
         /*
