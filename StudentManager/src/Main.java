@@ -14,11 +14,11 @@ public class Main {
         int back = 0;
         //创建集合对象储存学生信息
         ArrayList<Student> array = new ArrayList<>();
-
         while (back == 0) {
             int choice = mainView();
             switch (choice) {
                 case 1:
+
                     addStudent(array);
                     break;
                 case 2:
