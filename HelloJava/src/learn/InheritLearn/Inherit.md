@@ -65,6 +65,7 @@ public class Student extends people {}
 - 父类成员范围找
 - 如果都没有就报错（不再向上找父类的父类）
 
+## 
 ## Java中继承的注意事项
 - Java中类只支持单继承，不支持多继承（子 extends 父, 母----是不受支持的）
 - Java中类支持多层继承（子 extends 父; 父 extends 祖父-------是可以的）
