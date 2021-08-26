@@ -8,4 +8,7 @@ package learn.PortLearn.demo2;
  * @date： 2021/8/26 13:18
  */
 public class test {
+    public static void main(String[] args) {
+
+    }
 }
