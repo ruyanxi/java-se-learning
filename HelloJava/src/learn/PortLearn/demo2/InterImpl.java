@@ -2,12 +2,11 @@ package learn.PortLearn.demo2;
 
 /**
  * @author: 朢曐(雷杨一凡)
- * @Title: Inter
+ * @Title: InterImpl
  * @ProjectName: java-se-learning
  * @Description：
- * @date： 2021/8/26 13:28
+ * @date： 2021/8/26 13:27
  */
-public interface Inter {
-    public int num = 10;
-    public final int num2 = 20;
+public class InterImpl implements Inter{
+
 }

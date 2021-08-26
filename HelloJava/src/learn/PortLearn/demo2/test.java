@@ -9,6 +9,11 @@ package learn.PortLearn.demo2;
  */
 public class test {
     public static void main(String[] args) {
-
+        Inter i = new InterImpl();
+        System.out.println(i.num);
+        System.out.println(i.num2);
+        System.out.println("-----");
+        System.out.println(Inter.num);
+        System.out.println(Inter.num2);
     }
 }

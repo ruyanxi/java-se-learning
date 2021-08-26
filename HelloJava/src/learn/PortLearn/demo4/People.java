@@ -1,20 +1,20 @@
-package learn.PortLearn.demo3;
+package learn.PortLearn.demo4;
 
 /**
  * @author: 朢曐(雷杨一凡)
- * @Title: Animal
+ * @Title: people
  * @ProjectName: java-se-learning
  * @Description：
- * @date： 2021/8/26 13:48
+ * @date： 2021/8/26 14:27
  */
-public abstract class Animal {
+public abstract class People {
     private String name;
     private int age;
 
-    public Animal() {
+    public People() {
     }
 
-    public Animal(String name, int age) {
+    public People(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -34,5 +34,6 @@ public abstract class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
     public abstract void eat();
 }
