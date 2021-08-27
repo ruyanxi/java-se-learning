@@ -89,7 +89,7 @@ public class test {
         //偶遇小问题，使用String转byte[]和char[]后倒置再转化为String乱码
 
 
-        String string = "asd123ASD得磨，./";
+        /*String string = "asd123ASD得磨，./";
 
 //        byte[] b = new byte[string.length()];
         char[] c = new char[string.length()];
@@ -117,7 +117,9 @@ public class test {
         System.out.println("原语句："+string);
 
         System.out.println("byte:"+string1);
-        System.out.println("char:"+string2);
+        System.out.println("char:"+string2);*/
+
+        System.out.println(Math.E);
 
 
     }
