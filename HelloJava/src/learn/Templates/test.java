@@ -88,38 +88,40 @@ public class test {
 
         //偶遇小问题，使用String转byte[]和char[]后倒置再转化为String乱码
 
+//        String string = "asd123ASD得磨，./";
+//
+////        byte[] b = new byte[string.length()];
+//        char[] c = new char[string.length()];
+//
+//        //尝试新byte[]转换：
+//        byte[] b = string.getBytes();
+//
+//        for (int i = 0;i<string.length();i++) {
+////            b[i] = (byte) string.charAt(i);
+//            c[i] = string.charAt(i);
+//        }
+//        for (int start = 0,end = string.length()-1;start<end;start++,end--) {
+//            byte temp1 = b[start];
+//            b[start] = b[end];
+//            b[end] = temp1;
+//
+//            char temp2 = c[start];
+//            c[start] = c[end];
+//            c[end] = temp2;
+//        }
+//
+//        String string1 = new String(b);
+//        String string2 = new String(c);
+//
+//        System.out.println("原语句："+string);
+//
+//        System.out.println("byte:"+string1);
+//        System.out.println("char:"+string2);
 
-        /*String string = "asd123ASD得磨，./";
+//        System.out.println(Math.E);
 
-//        byte[] b = new byte[string.length()];
-        char[] c = new char[string.length()];
-
-        //尝试新byte[]转换：
-        byte[] b = string.getBytes();
-
-        for (int i = 0;i<string.length();i++) {
-//            b[i] = (byte) string.charAt(i);
-            c[i] = string.charAt(i);
-        }
-        for (int start = 0,end = string.length()-1;start<end;start++,end--) {
-            byte temp1 = b[start];
-            b[start] = b[end];
-            b[end] = temp1;
-
-            char temp2 = c[start];
-            c[start] = c[end];
-            c[end] = temp2;
-        }
-
-        String string1 = new String(b);
-        String string2 = new String(c);
-
-        System.out.println("原语句："+string);
-
-        System.out.println("byte:"+string1);
-        System.out.println("char:"+string2);*/
-
-        System.out.println(Math.E);
+//        System.out.println(Integer.MAX_VALUE);
+//        System.out.println(Integer.MIN_VALUE);
 
 
     }
